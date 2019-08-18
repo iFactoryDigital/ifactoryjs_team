@@ -1,0 +1,34 @@
+{
+  "name": "@edenjs/team",
+  "description": "",
+  "version": "0.0.1",
+  "dependencies": {},
+  "engines": {
+    "node": ">= 8.0.0"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eden-js/team.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eden-js/team/issues"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "homepage": "https://github.com/eden-js/team#readme",
+  "devDependencies": {
+    "@edenjs/eslint-config-eden": "^2.0.14",
+    "eslint": "^6.0.1",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.18.0",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.14.2"
+  }
+}
