@@ -1,0 +1,27 @@
+
+.table-acl {
+  width  : calc(100% + 3px);
+  margin : -1px;
+
+  tr td,
+  tr th {
+    height : ($spacer * 6);
+
+    .label-main {
+      width         : ($spacer * 6) - ($table-cell-padding * 2);
+      display       : block;
+      overflow      : hidden;
+      white-space   : nowrap;
+      text-overflow : ellipsis;
+    }
+  }
+
+  tr th {
+    padding-left : $card-spacer-x;
+  }
+
+  .acl-section {
+    width      : ($spacer * 6);
+    text-align : center;
+  }
+}

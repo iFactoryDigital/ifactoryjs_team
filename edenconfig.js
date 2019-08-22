@@ -1,12 +1,10 @@
+// create config
 const config = {};
 
-config.js = [
-  // './node_modules/jquery/dist/jquery.min.js',
-  // './node_modules/summernote/dist/summernote-bs4.js',
-];
+// set initial team fields
+config.team = {
+  fields : [],
+};
 
-config.sass = [
-  // './node_modules/summernote/dist/summernote-bs4.css',
-];
-
+// export config
 module.exports = config;
