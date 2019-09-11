@@ -34,7 +34,9 @@
     </div>
 
     <div class="card-body">
-      xxxx
+      <span class="btn btn-secondary mb-2 mr-2" each={ acl, i in opts.row.get('acls') || [] }>
+        { acl }
+      </span>
     </div>
 
     <div class="card-footer">
