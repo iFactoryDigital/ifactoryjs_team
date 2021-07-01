@@ -185,6 +185,7 @@ class TeamAdminController extends Controller {
    * @priority 10
    */
   async indexAction(req, res) {
+    console.log('team indexAction');
     // Render grid
     res.render('team/admin', {
       grid : await (await this._grid(req)).render(req),
@@ -432,7 +433,7 @@ class TeamAdminController extends Controller {
   /**
    * get flattened subs
    *
-   * @param {Object} sub 
+   * @param {Object} sub
    */
   getFlatten(sub) {
     // return reduce
@@ -592,7 +593,7 @@ class TeamAdminController extends Controller {
       });
     });
 
-    // Set default sort order 
+    // Set default sort order
     teamGrid.sort('priority', 1);
 
     // Return grid
